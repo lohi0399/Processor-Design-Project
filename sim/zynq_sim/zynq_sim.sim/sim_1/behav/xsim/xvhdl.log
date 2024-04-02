@@ -1,0 +1,22 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_cpu_0_0/sim/design_1_cpu_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_cpu_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_crossbar_wrap_0_0/sim/design_1_crossbar_wrap_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_crossbar_wrap_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_bram_0_0/sim/design_1_bram_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_bram_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_bram_1_0/sim/design_1_bram_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_bram_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_uart_0_0/sim/design_1_uart_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_uart_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_axi_full2lite_conver_0_0/sim/design_1_axi_full2lite_conver_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_full2lite_conver_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/sim/design_1_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_bram_ctrl_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_axi_bram_ctrl_1_0/sim/design_1_axi_bram_ctrl_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_axi_bram_ctrl_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_0_1/sim/design_1_proc_sys_reset_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_proc_sys_reset_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/n/Desktop/PDP2023/sim/zynq_sim/zynq_sim.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'

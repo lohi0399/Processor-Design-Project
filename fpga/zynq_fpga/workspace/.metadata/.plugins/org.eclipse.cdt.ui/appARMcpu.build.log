@@ -1,0 +1,42 @@
+02:10:59 **** Incremental Build of configuration Debug for project appARMcpu ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/appARMcpu_main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/appARMcpu_main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga/workspace/design_2_wrapper/export/design_2_wrapper/sw/design_2_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/appARMcpu_main.d" -MT"src/appARMcpu_main.o" -o "src/appARMcpu_main.o" "../src/appARMcpu_main.c"
+../src/appARMcpu_main.c: In function 'ReadWrite':
+../src/appARMcpu_main.c:307:21: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  307 |                     printf("Total energy :   %f J\n", E_total);
+      |                     ^~~~~~
+../src/appARMcpu_main.c:11:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   10 | #include "xadcps.h"
+  +++ |+#include <stdio.h>
+   11 | 
+../src/appARMcpu_main.c:307:21: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  307 |                     printf("Total energy :   %f J\n", E_total);
+      |                     ^~~~~~
+../src/appARMcpu_main.c:307:21: note: include '<stdio.h>' or provide a declaration of 'printf'
+'Finished building: ../src/appARMcpu_main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga/workspace/design_2_wrapper/export/design_2_wrapper/sw/design_2_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: appARMcpu.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga/workspace/design_2_wrapper/export/design_2_wrapper/sw/design_2_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "appARMcpu.elf"  ./src/appARMcpu_main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: appARMcpu.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size appARMcpu.elf  |tee "appARMcpu.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  97112	   2732	10517248	10617092	 a20104	appARMcpu.elf
+'Finished building: appARMcpu.elf.size'
+' '
+
+02:11:07 Build Finished (took 8s.222ms)
+

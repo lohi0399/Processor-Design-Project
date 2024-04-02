@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jun 25 08:23:07 2023
+# Process ID: 12752
+# Current directory: C:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27504 C:\Users\loghi\OneDrive\Desktop\PDP2023_mult\PDP\fpga\zynq_fpga\zynq_fpga.xpr
+# Log file: C:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga/vivado.log
+# Journal file: C:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga\vivado.jou
+# Running On: Lohit, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8345 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/loghi/OneDrive/Desktop/PDP2023_mult/PDP/fpga/zynq_fpga/zynq_fpga.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+update_module_reference design_2_cpu_0_0
+reset_run impl_1

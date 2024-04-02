@@ -1,0 +1,7 @@
++====================+===================+========================================================================+
+| Launch Setup Clock | Launch Hold Clock | Pin                                                                    |
++====================+===================+========================================================================+
+| clk_fpga_0         | clk_fpga_0        | design_2_i/cpu_0/U0/gen_cache.cache_cntrl_inst/valid_rows_reg[21][0]/D |
+| clk_fpga_0         | clk_fpga_0        | design_2_i/cpu_0/U0/gen_cache.cache_cntrl_inst/valid_rows_reg[53][0]/D |
+| clk_fpga_0         | clk_fpga_0        | design_2_i/cpu_0/U0/gen_cache.cache_cntrl_inst/valid_rows_reg[48][1]/D |
++--------------------+-------------------+------------------------------------------------------------------------+

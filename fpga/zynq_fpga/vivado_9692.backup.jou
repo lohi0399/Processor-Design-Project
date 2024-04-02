@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Jun 25 00:48:59 2023
+# Process ID: 9692
+# Current directory: C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/fpga/zynq_fpga
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20068 C:\Users\loghi\OneDrive\Desktop\PDP2023\PDP\fpga\zynq_fpga\zynq_fpga.xpr
+# Log file: C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/fpga/zynq_fpga/vivado.log
+# Journal file: C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/fpga/zynq_fpga\vivado.jou
+# Running On: Lohit, OS: Windows, CPU Frequency: 1190 MHz, CPU Physical cores: 4, Host memory: 8345 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/fpga/zynq_fpga/zynq_fpga.xpr
+update_compile_order -fileset sources_1
+close [ open C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/prefix_adder.vhd w ]
+add_files C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/prefix_adder.vhd
+close [ open C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/csa.vhd w ]
+add_files C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/csa.vhd
+close [ open C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/ppadder.vhd w ]
+add_files C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/ppadder.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/topadder.vhd w ]
+add_files C:/Users/loghi/OneDrive/Desktop/PDP2023/PDP/rtl/mlite/topadder.vhd
+update_compile_order -fileset sources_1
+update_module_reference design_2_uart_0_0
+update_module_reference design_2_cpu_0_0
+update_compile_order -fileset sources_1
+update_module_reference design_2_cpu_0_0
